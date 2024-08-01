@@ -1,0 +1,37 @@
+{
+  "name": "@keystone-6/example-framework-nextjs-app-directory",
+  "version": "0.0.4",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "ks:dev": "keystone dev",
+    "ks:build": "keystone build",
+    "ks:start": "keystone start",
+    "n:dev": "next dev -p 3000",
+    "n:build": "next build",
+    "build": "yarn keystone build --no-ui && yarn next build",
+    "postinstall": "keystone postinstall",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@keystone-6/core": "^6.1.0",
+    "@keystone-6/document-renderer": "^1.1.2",
+    "@keystone-6/fields-document": "^9.0.0",
+    "fp-ts": "^2.16.9",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "next-auth": "^4.23.2",
+    "next": "^14.2.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5.5.0"
+  },
+  "resolutions": {
+    "next": "^14.0.0"
+  }
+}

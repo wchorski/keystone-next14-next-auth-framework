@@ -1,0 +1,75 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+	max-width: 70ch;
+	padding: 2em 1em;
+	margin: auto;
+	line-height: 1.75;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+
+	body {
+		color: white;
+		background: black;
+	}
+}
+
+input {
+	min-height: 2rem;
+}
+
+button {
+	height: 2rem;
+	min-width: 4rem;
+}
+
+fieldset {
+	display: grid;
+	gap: 0.5rem;
+}
+
+label {
+	display: grid;
+}
+
+.callout {
+	padding: 1rem;
+}
+
+.blue,
+.success {
+	border-left: solid 7px rgb(106, 200, 140);
+	outline: solid rgb(106, 200, 140);
+}
+.red,
+.error {
+	border-left: solid 7px rgb(174, 85, 85);
+	outline: solid rgb(174, 85, 85);
+}
+
+table,
+td {
+	border: solid 1px grey;
+	padding: 5px;
+}
+thead {
+	font-weight: bold;
+}
+
+pre {
+	outline: solid 2px lightblue;
+}
